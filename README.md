@@ -12,3 +12,6 @@ Empora cocoapods repository
    * ```pod repo add Private-Cocoapods https://github.com/Empora/Private-Cocoapods.git```
  * Push the new podspec
    *   ```pod repo push Private-Cocoapods ?.podspec```
+
+To debug your spec in case of errors use
+```pod spec lint *.podspec ```
