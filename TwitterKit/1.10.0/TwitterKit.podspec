@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
     }
     s.resources = 'TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle'
     s.source_files = "TwitterKit.framework/Headers/*.h"
-    s.frameworks = "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit"
+    s.frameworks = "TwitterCore", "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit"
     s.vendored_frameworks = "TwitterKit.framework"
+    s.dependency 'TwitterCore'
 end
