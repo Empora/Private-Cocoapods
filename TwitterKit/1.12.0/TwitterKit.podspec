@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
         :http => "https://kit-downloads.fabric.io/ios/com.twitter.sdk.ios/1.12.0/com.twitter.sdk.ios-default.zip"
     }
     s.resources = 'TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle'
-    s.source_files = "TwitterKit.framework/Headers/*.h"
     s.frameworks = "TwitterCore", "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit"
     s.vendored_frameworks = "TwitterKit.framework"
     s.dependency 'TwitterCore'
