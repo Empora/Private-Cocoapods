@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
     s.source_files = "TwitterCore.framework/Headers/*.h"
     s.frameworks = "Accounts", "CoreData", "CoreGraphics", "Foundation", "Security", "Social", "UIKit"
     s.vendored_frameworks = "TwitterCore.framework"
+    s.module_name = 'TwitterCore'
 end
